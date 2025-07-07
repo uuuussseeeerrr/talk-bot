@@ -11,7 +11,7 @@ CALENDAR_ID = os.getenv("CALENDAR_ID")
 
 
 SCOPES = ['https://www.googleapis.com/auth/calendar']
-SERVICE_ACCOUNT_FILE = 'service_account.json'
+SERVICE_ACCOUNT_FILE = 'backend/service_account.json'
 CALENDAR_ID = os.getenv("CALENDAR_ID")  # set this in .env
 
 credentials = service_account.Credentials.from_service_account_file(
