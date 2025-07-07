@@ -1,10 +1,10 @@
 # backend/main.py
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
-from calendar_utils import check_availability, create_event
+from backend.calendar_utils import check_availability, create_event
 from pydantic import BaseModel
-from calendar_utils import get_upcoming_events
-from lang_agent import ask_agent
+from backend.calendar_utils import get_upcoming_events
+from backend.lang_agent import ask_agent
 
 
 
