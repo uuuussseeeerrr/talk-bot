@@ -8,7 +8,7 @@ load_dotenv()
 
 CALENDAR_ID = os.getenv("CALENDAR_ID")
 
-# CALENDAR_ID = "60excel@gmail.com"
+
 
 SCOPES = ['https://www.googleapis.com/auth/calendar']
 SERVICE_ACCOUNT_FILE = 'service_account.json'
